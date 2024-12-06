@@ -1,7 +1,3 @@
-<center>
-    <img src="https://via.placeholder.com/500x150.png?text=Secure+Password+Validator" alt="Secure Password Validator Logo">
-</center>
-
 # Secure Password Validator
 
 > **The ultimate tool to keep your passwords secure and robust!**  
