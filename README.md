@@ -1,3 +1,9 @@
+---
+
+![Secure Password Validator Logo](./image.png)
+
+---
+
 # 🌟 Secure Password Validator
 
 The **Secure Password Validator** is a robust Maven-based project designed to ensure password security by validating them against stringent criteria. With its sleek design and strong foundations, this tool empowers users to enforce best practices for password safety.
