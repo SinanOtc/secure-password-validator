@@ -92,3 +92,28 @@ Once the application is running, you can input passwords to validate them agains
 This project is a brainchild of **Sinan** and **Theocharis**, designed to raise the bar for password security. By enforcing strict validation rules, the Secure Password Validator empowers developers and users to create stronger, more secure passwords.
 
 _Crafted for security, built for the future – Secure Password Validator._
+
+---
+
+## 📊 Class Diagram
+
+The following class diagram illustrates the structure of the main classes in the project.
+
+```mermaid
+classDiagram
+    class PasswordValidator {
+        +validate(password: String): Boolean
+        +isValidLength(password: String): Boolean
+        +hasUpperCase(password: String): Boolean
+        +hasLowerCase(password: String): Boolean
+        +hasDigit(password: String): Boolean
+        +hasSpecialCharacter(password: String): Boolean
+    }
+
+    class PasswordValidationException {
+        +message: String
+        +constructor(message: String)
+    }
+
+    PasswordValidator --> PasswordValidationException : throws
+```
